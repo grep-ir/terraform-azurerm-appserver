@@ -1,6 +1,6 @@
 output "vm-ids" {
   value       = azurerm_virtual_machine.module.*.id
-  description = "Virtual Machine Id's"
+  description = "Virtual Machine Ids"
 }
 
 output "private-ips" {
